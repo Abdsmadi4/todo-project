@@ -1,0 +1,89 @@
+body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(128, 128, 128);
+        }
+nav{
+            width: 100%;
+            background-color: black;
+            overflow: auto;
+        }
+ul{
+            padding: 0;
+            margin: 0 0 0 150px;
+            list-style: none;
+        }
+li{
+            float: left;
+        }
+.logo img{
+            position: absolute;
+            margin-top: 5px;
+            margin-left: 10px;
+
+        }
+nav a{
+            width: 100%;
+            display: block;
+            padding: 20px 15px;
+            text-decoration: none;
+            text-align: center;
+        }
+nav a:hover{
+            background: #F7EC9C ;
+            transition: 0.5ms;
+            text-transform: uppercase;
+
+        }
+table{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 2%;
+    height: 35%;
+    width: 60%;
+}
+th , td{
+    padding: 3%;
+    
+
+} 
+
+form{
+    text-align: center;
+    padding: 2%;
+}
+label{
+    padding: 2%;
+}
+input{
+    padding: 1%;
+}
+button{
+    padding-right: 10PX;
+    margin-left: 78px ;
+    margin-top: 4px;
+}
+footer{
+    text-align: center;
+    margin-top: 100%;
+    background-color: #F7EC9C;
+    width: 100%;
+}
+p {
+     text-align: center;
+    display: block;
+    width: 300px;
+    padding-top: 30px;
+    overflow: hidden;
+    font-family: BenchNine , cursive; 
+}
+    
+#todo{
+    width: 60%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+ 
